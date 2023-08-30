@@ -27,6 +27,16 @@ The Employee Management API is a set of RESTful endpoints that allow you to mana
 
 To start using API, refer to the endpoints section below. No authentication tokens are required, as the API relies on session-based authentication.
 
+1. **Installation**: Clone the repository and install dependencies using the following commands:
+
+   ```bash
+   git clone https://github.com/your-username/employee-management-api.git
+   cd restful-api-mysql
+   npm install
+   
+2. Database Configuration: Update your database credentials in the `config/config.json` file.
+3. Start the API: `npm start`
+
 ## Endpoints <a name="endpoints"></a>
 
 ### User Registration <a name="user-registration"></a>
