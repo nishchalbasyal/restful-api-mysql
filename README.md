@@ -30,7 +30,7 @@ To start using API, refer to the endpoints section below. No authentication toke
 1. **Installation**: Clone the repository and install dependencies using the following commands:
 
    ```bash
-   git clone https://github.com/your-username/employee-management-api.git
+   git clone https://github.com/nishchalbasyal/restful-api-mysql.git
    cd restful-api-mysql
    npm install
    
