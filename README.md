@@ -1,6 +1,6 @@
-# Employee Management API Documentation
+# Restfull API Documentation
 
-Welcome to the Employee Management API Documentation. This guide provides details about the API endpoints and their usage.
+Welcome to the API Documentation. This guide provides details about the API endpoints and their usage.
 
 ## Table of Contents
 
@@ -77,10 +77,5 @@ Error responses include appropriate HTTP status codes and descriptive error mess
 
 The API uses session-based authentication to secure access to protected endpoints. Make sure to handle session management properly in your application.
 
-## Contributing <a name="contributing"></a>
-
-Contributions are welcome! Please fork the repository and submit pull requests.
-
-## License <a name="license"></a>
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ 
+ 
