@@ -6,6 +6,7 @@ Welcome to the API Documentation. This guide provides details about the API endp
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
+- [API Data Format and Data Types](#format)
 - [Endpoints](#endpoints)
   - [User Registration](#user-registration)
   - [User Login](#user-login)
@@ -36,6 +37,36 @@ To start using API, refer to the endpoints section below. No authentication toke
    
 2. Database Configuration: Update your database credentials in the `config/config.json` file.
 3. Start the API: `npm start`
+
+# API Data Format and Data Types <a name="format"></a>
+
+This section provides detailed information about the format and data types required when sending data to the Employee Management API endpoints.
+
+## Data Format
+
+The API endpoints expect data to be sent in JSON format. When sending data in requests, make sure to set the `Content-Type` header to `application/json`.
+
+## Data Types
+
+Here are the expected data types for various fields when sending data to different endpoints:
+
+### User Registration - `POST /register`
+
+- `name`: String (required) - Name of the user.
+- `email`: String (required) - User's email address.
+- `password`: String (required) - User's password.
+- `phone`: String (required) - User's phone number.
+
+Example Request Body:
+
+```json
+{
+  "name": "John",
+  "email": "john@example.com",
+  "password": "secretpassword",
+  "phone":"123232323"
+}
+```
 
 ## Endpoints <a name="endpoints"></a>
 
