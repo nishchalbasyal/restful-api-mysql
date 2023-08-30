@@ -25,7 +25,7 @@ The Employee Management API is a set of RESTful endpoints that allow you to mana
 
 ## Getting Started <a name="getting-started"></a>
 
-To start using the Employee Management API, refer to the endpoints section below. No authentication tokens are required, as the API relies on session-based authentication.
+To start using API, refer to the endpoints section below. No authentication tokens are required, as the API relies on session-based authentication.
 
 ## Endpoints <a name="endpoints"></a>
 
